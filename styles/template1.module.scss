@@ -1,0 +1,15 @@
+
+
+.profile_image_container {
+	height: 72px;
+	width: 72px;
+	border-radius: 36px;
+	overflow: hidden;
+}
+
+.container {
+	padding: 26px 38px;
+	@media only screen and (min-width: 1024px) {
+	padding: 36px 48px;
+	}
+}

@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 80%;
+	@media only screen and (min-width: 640px) {
+		font-size: 80%;
+	}
+	@media only screen and (min-width: 768px) {
+		font-size: 90%;
+	}
+	@media only screen and (min-width: 1024px) {
+		font-size: 100%;
+	}
+}
+
+div{
+	word-break: break-word;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+	background-color: #f9fafb;
+	position: relative;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.resume-a4 {
+	// width: 1240px;
+	// height: 874px;
+	// width: 596px;
+	// height: 842px;
+	height: 286.2mm;
+	max-width: 210mm;
+
+	// Margin is causing messing up of the printing process (an extra page is coming (blank))
+	margin: 20px auto;
+	margin-bottom: 93px;
+	@media only screen and (min-width: 1024px)  {
+		margin-bottom: 20px;
+	}
+}
+
+.left-sidebar {
+	@media only screen and (min-width: 1024px)  {
+		height: 297mm;
+	}
+}
+
+img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.ReactCrop-opt {
+	position: relative;
+	display: inline-block;
+	cursor: crosshair;
+	overflow: hidden;
+	// max-height: 500px;
+	margin-right: 2.5rem;
+
+	// img {
+	// 	object-fit: contain;
+	// 	height: 500px;
+	// }
+}
+
+.MuiDrawer-paperAnchorTop {
+	width: 100vw;
+	height: 100vh;
+	@media only screen and (min-width: 1024px)  {
+		width: 50vw;	
+	}
+}
