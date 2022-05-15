@@ -32,7 +32,7 @@ const PersonalDataForm = ({ closeDrawer, anchor }) => {
 		name: Yup.string().required('Required').min(3, 'Too Short'),
 		email: Yup.string().email(),
 		designation: Yup.string(),
-		country: Yup.string().required(),
+		// country: Yup.string().required(),
 		phoneNumber: Yup.string().min(10).required('Required'),
 	});
 

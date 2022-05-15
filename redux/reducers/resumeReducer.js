@@ -27,7 +27,7 @@ const initialState = {
 		// country: 'Your Country',
 	},
 	photo: {
-		src: '/images/avatar.png',
+		src: '/images/avatar.2.jpg',
 	},
 	education: [
 		{
