@@ -66,7 +66,7 @@ const PersonalDataForm = ({ closeDrawer, anchor }) => {
 						email: '',
 						phoneNumber: '',
 						designation: '',
-						country: '',
+						// country: '',
 					});
 					setSubmitting(false);
 					closeDrawer();
@@ -124,7 +124,7 @@ const PersonalDataForm = ({ closeDrawer, anchor }) => {
 						error={!!errors.designation}
 						helperText={errors.designation}
 					/>
-					<TextField
+					{/* <TextField
 						id='country'
 						className='mt-10'
 						rows={1}
@@ -136,7 +136,7 @@ const PersonalDataForm = ({ closeDrawer, anchor }) => {
 						label={'Enter Country'}
 						error={!!errors.country}
 						helperText={errors.country}
-					/>
+					/> */}
 
 					<FormControl
 						fullWidth

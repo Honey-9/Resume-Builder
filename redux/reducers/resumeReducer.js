@@ -24,7 +24,7 @@ const initialState = {
 		designation: 'Senior Product Designer',
 		email: 'youremail@gmail.com',
 		phoneNumber: '+91 1234567890',
-		country: 'Your Country',
+		// country: 'Your Country',
 	},
 	photo: {
 		src: '/images/avatar.png',
